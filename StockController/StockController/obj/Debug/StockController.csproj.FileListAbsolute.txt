@@ -1,0 +1,10 @@
+K:\Projects\StockController\StockController\StockController\bin\Debug\StockController.exe.config
+K:\Projects\StockController\StockController\StockController\bin\Debug\StockController.exe
+K:\Projects\StockController\StockController\StockController\bin\Debug\StockController.pdb
+K:\Projects\StockController\StockController\StockController\obj\Debug\StockController.csprojAssemblyReference.cache
+K:\Projects\StockController\StockController\StockController\obj\Debug\StockController.LoginForm.resources
+K:\Projects\StockController\StockController\StockController\obj\Debug\StockController.Properties.Resources.resources
+K:\Projects\StockController\StockController\StockController\obj\Debug\StockController.csproj.GenerateResource.cache
+K:\Projects\StockController\StockController\StockController\obj\Debug\StockController.csproj.CoreCompileInputs.cache
+K:\Projects\StockController\StockController\StockController\obj\Debug\StockController.exe
+K:\Projects\StockController\StockController\StockController\obj\Debug\StockController.pdb

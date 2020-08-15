@@ -16,5 +16,15 @@ namespace StockController
         {
             InitializeComponent();
         }
+
+        private void CmdLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CmdExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();     // Exit the application
+        }
     }
 }
