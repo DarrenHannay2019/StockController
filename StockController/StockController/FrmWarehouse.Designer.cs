@@ -314,6 +314,7 @@
             this.TxteMail.Name = "TxteMail";
             this.TxteMail.Size = new System.Drawing.Size(613, 33);
             this.TxteMail.TabIndex = 12;
+            this.TxteMail.Leave += new System.EventHandler(this.TxteMail_Leave);
             // 
             // TxtFax
             // 
@@ -334,6 +335,7 @@
             this.TxtWebsite.Name = "TxtWebsite";
             this.TxtWebsite.Size = new System.Drawing.Size(613, 33);
             this.TxtWebsite.TabIndex = 11;
+            this.TxtWebsite.Leave += new System.EventHandler(this.TxtWebsite_Leave);
             // 
             // TxtPostCode
             // 
@@ -344,6 +346,7 @@
             this.TxtPostCode.Name = "TxtPostCode";
             this.TxtPostCode.Size = new System.Drawing.Size(318, 33);
             this.TxtPostCode.TabIndex = 8;
+            this.TxtPostCode.Leave += new System.EventHandler(this.TxtPostCode_Leave);
             // 
             // CmdOK
             // 
@@ -356,6 +359,7 @@
             this.CmdOK.TabIndex = 9;
             this.CmdOK.Text = "Button1";
             this.CmdOK.UseVisualStyleBackColor = true;
+            this.CmdOK.Click += new System.EventHandler(this.CmdOK_Click);
             // 
             // CmdClear
             // 
@@ -368,6 +372,7 @@
             this.CmdClear.TabIndex = 11;
             this.CmdClear.Text = "Clear";
             this.CmdClear.UseVisualStyleBackColor = true;
+            this.CmdClear.Click += new System.EventHandler(this.CmdClear_Click);
             // 
             // TxtTelephone1
             // 
@@ -388,6 +393,7 @@
             this.TxtAddress4.Name = "TxtAddress4";
             this.TxtAddress4.Size = new System.Drawing.Size(835, 33);
             this.TxtAddress4.TabIndex = 7;
+            this.TxtAddress4.Leave += new System.EventHandler(this.TxtAddress4_Leave);
             // 
             // CmdCancel
             // 
@@ -400,6 +406,7 @@
             this.CmdCancel.TabIndex = 10;
             this.CmdCancel.Text = "Cancel";
             this.CmdCancel.UseVisualStyleBackColor = true;
+            this.CmdCancel.Click += new System.EventHandler(this.CmdCancel_Click);
             // 
             // TxtAddress3
             // 
@@ -410,6 +417,7 @@
             this.TxtAddress3.Name = "TxtAddress3";
             this.TxtAddress3.Size = new System.Drawing.Size(835, 33);
             this.TxtAddress3.TabIndex = 6;
+            this.TxtAddress3.Leave += new System.EventHandler(this.TxtAddress3_Leave);
             // 
             // TxtAddress2
             // 
@@ -420,6 +428,7 @@
             this.TxtAddress2.Name = "TxtAddress2";
             this.TxtAddress2.Size = new System.Drawing.Size(835, 33);
             this.TxtAddress2.TabIndex = 5;
+            this.TxtAddress2.Leave += new System.EventHandler(this.TxtAddress2_Leave);
             // 
             // TxtAddress1
             // 
@@ -430,6 +439,7 @@
             this.TxtAddress1.Name = "TxtAddress1";
             this.TxtAddress1.Size = new System.Drawing.Size(835, 33);
             this.TxtAddress1.TabIndex = 4;
+            this.TxtAddress1.Leave += new System.EventHandler(this.TxtAddress1_Leave);
             // 
             // TxtContactName
             // 
@@ -440,6 +450,7 @@
             this.TxtContactName.Name = "TxtContactName";
             this.TxtContactName.Size = new System.Drawing.Size(835, 33);
             this.TxtContactName.TabIndex = 3;
+            this.TxtContactName.Leave += new System.EventHandler(this.TxtContactName_Leave);
             // 
             // TxtWarehouseName
             // 
@@ -450,6 +461,7 @@
             this.TxtWarehouseName.Name = "TxtWarehouseName";
             this.TxtWarehouseName.Size = new System.Drawing.Size(835, 33);
             this.TxtWarehouseName.TabIndex = 2;
+            this.TxtWarehouseName.Leave += new System.EventHandler(this.TxtWarehouseName_Leave);
             // 
             // TxtWarehouseRef
             // 
@@ -460,6 +472,7 @@
             this.TxtWarehouseRef.Name = "TxtWarehouseRef";
             this.TxtWarehouseRef.Size = new System.Drawing.Size(318, 33);
             this.TxtWarehouseRef.TabIndex = 0;
+            this.TxtWarehouseRef.Leave += new System.EventHandler(this.TxtWarehouseRef_Leave);
             // 
             // TabPage1
             // 
@@ -541,6 +554,7 @@
             this.Controls.Add(this.TabControl1);
             this.Name = "FrmWarehouse";
             this.Text = "FrmWarehouse";
+            this.Load += new System.EventHandler(this.FrmWarehouse_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridStock)).EndInit();
             this.TabPage3.ResumeLayout(false);
             this.TabPage3.PerformLayout();
